@@ -8,7 +8,6 @@
 local utility = require( GetScriptDirectory().."/utility" ) 
 require(GetScriptDirectory() ..  "/ability_item_usage_generic")
 local role = require(GetScriptDirectory() .. "/RoleUtility")
-local bnUtil = require(GetScriptDirectory() .. "/BotNameUtility")
 
 local debugmode=false
 local npcBot = GetBot()

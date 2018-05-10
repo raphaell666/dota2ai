@@ -527,7 +527,25 @@ hero_pool_position_unimplemented={
 local debug_mode=false
 
 function GetBotNames()
-	return bnUtil.GetDota2Team();
+	local namesList= {
+	-- Greek names
+	"Thanos","Konstantinos","Georgios","Calios","Phisios","Banutia","Nyatia","Cholyos","Kaletia","Vuseios","Theodoros","Raezios","Roezyos","Dynyos","Thrajios","Sayatia",
+	-- Chinese names
+	"Hian","Qian","Xou","Shou","Xiapuo","Quo","Hiawuo","Huo","Hou","Xian","Shuolia","Qou","Shia","Zhian","Zhuo","Shuo",
+	-- Japanese names
+	"So","Katou","Nitta","Kuroki","Kitajo","Goda","Akiba","Riku","Haru","Kaito","Asahi","Yuuto","Hana","Himari","Akari","Yui",
+	-- Common names
+	"Bob","Adam","John","Joseph","Alan","Eric","Jack","Jones","Mohamed","Peter","Manuel","Juan","Junior","Miguel","James","Robert","Joshua","Robin","Jayden",
+	-- Unisex nicknames
+	"Leo","Mel","Max","Dan","Ed","Al","Ash","Bobbie","Charlie","Freddie","Georgie","Iz","Jo","Ken","Sal","Viv","Vic","Theo","Lou","Liv"
+	};
+	local selectedNames={}
+	for i = 1,5 do
+		local rand = RandomInt(1, #namesList);
+		table.insert(selectedNames,namesList[rand]);
+		table.remove(namesList,rand);
+	end
+	return selectedNames
 end
 
 function Think()
