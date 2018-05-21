@@ -521,11 +521,16 @@ hero_pool_position={
 }
 -- This is the pool of other heros in each position, which dont have bots yet. This is so we can tell which positions the players are in.
 hero_pool_position_unimplemented={
+-- carry
     [1] = {"npc_dota_hero_morphling"},
-    [2] = {"npc_dota_hero_invoker","npc_dota_hero_meepo","npc_dota_hero_puck","npc_dota_hero_storm_spirit","npc_dota_hero_tinker","npc_dota_hero_broodmother"},
+-- mid
+    [2] = {"npc_dota_hero_invoker","npc_dota_hero_meepo","npc_dota_hero_puck","npc_dota_hero_storm_spirit","npc_dota_hero_tinker","npc_dota_hero_broodmother","npc_dota_hero_tiny"},
+-- offlane?
     [3] = {"npc_dota_hero_rattletrap","npc_dota_hero_lone_druid","npc_dota_hero_pangolier"},
-    [4] = {"npc_dota_hero_wisp","npc_dota_hero_phoenix","npc_dota_hero_techies"},
-    [5] = {"npc_dota_hero_rubick","npc_dota_hero_visage","npc_dota_hero_dark_willow"}
+-- off lane support?
+    [4] = {"npc_dota_hero_wisp","npc_dota_hero_phoenix","npc_dota_hero_techies","npc_dota_hero_elder_titan"},
+-- safe lane support
+    [5] = {"npc_dota_hero_rubick","npc_dota_hero_visage","npc_dota_hero_dark_willow","npc_dota_hero_spirit_breaker"}
 }
 ----------------------------------------------------------------------------------------------------
 local debug_mode=false
