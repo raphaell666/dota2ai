@@ -322,7 +322,7 @@ allBotHeroes = {
 	"npc_dota_hero_beastmaster",
 	"npc_dota_hero_bounty_hunter",
 	"npc_dota_hero_brewmaster",
---	"npc_dota_hero_broodmother",
+	"npc_dota_hero_broodmother",
 	"npc_dota_hero_bloodseeker",
 	"npc_dota_hero_bristleback",
 	"npc_dota_hero_bane",
@@ -491,7 +491,7 @@ hero_pool_position_3 = {
 	"npc_dota_hero_beastmaster",
 	"npc_dota_hero_brewmaster",
 	"npc_dota_hero_enigma",
---	"npc_dota_hero_broodmother",
+	"npc_dota_hero_broodmother",
 	"npc_dota_hero_dark_seer",
 	"npc_dota_hero_enchantress",
 	"npc_dota_hero_magnataur",
@@ -556,7 +556,7 @@ hero_pool_position_unimplemented={
 -- carry
     [1] = {"npc_dota_hero_morphling"},
 -- mid
-    [2] = {"npc_dota_hero_invoker","npc_dota_hero_meepo","npc_dota_hero_puck","npc_dota_hero_storm_spirit","npc_dota_hero_tinker","npc_dota_hero_broodmother","npc_dota_hero_tiny"},
+    [2] = {"npc_dota_hero_invoker","npc_dota_hero_meepo","npc_dota_hero_puck","npc_dota_hero_storm_spirit","npc_dota_hero_tinker","npc_dota_hero_tiny"},
 -- offlane?
     [3] = {"npc_dota_hero_rattletrap","npc_dota_hero_lone_druid","npc_dota_hero_pangolier"},
 -- off lane support?
